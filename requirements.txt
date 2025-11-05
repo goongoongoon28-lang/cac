@@ -1,0 +1,24 @@
+# Flood Sentinel - Complete Application Requirements
+# ===================================================
+# Install with: pip install -r requirements.txt
+
+# Core Data Science Libraries (from Phase 1)
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Web Framework (Phase 2)
+Flask>=3.0.0
+flask-cors>=4.0.0
+
+# HTTP Requests
+requests>=2.31.0
+
+# Production Server (Phase 5)
+gunicorn>=21.2.0
+
+# Utilities
+python-dateutil>=2.8.0

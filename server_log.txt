@@ -1,0 +1,45 @@
+=== FLOOD SENTINEL SERVER LOG ===
+Started: 2025-10-18 10:36:36
+======================================================================
+
+[2025-10-18 10:36:36] ======================================================================
+[2025-10-18 10:36:36] FLOOD SENTINEL - SERVER STARTUP
+[2025-10-18 10:36:36] ======================================================================
+[2025-10-18 10:36:36] 
+[2025-10-18 10:36:36] Step 1: Checking Python version...
+[2025-10-18 10:36:36] Python version: 3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]
+[2025-10-18 10:36:36] 
+[2025-10-18 10:36:36] Step 2: Checking working directory...
+[2025-10-18 10:36:36] Working directory: C:\CAC
+[2025-10-18 10:36:36] 
+[2025-10-18 10:36:36] Step 3: Verifying required files...
+[2025-10-18 10:36:36]   ✓ Found app.py (58,911 bytes)
+[2025-10-18 10:36:36]   ✓ Found models/flood_risk_model.pkl (3,107,423 bytes)
+[2025-10-18 10:36:36]   ✓ Found models/feature_scaler.pkl (967 bytes)
+[2025-10-18 10:36:36]   ✓ Found data/final_training_dataset.csv (231,547 bytes)
+[2025-10-18 10:36:36] 
+[2025-10-18 10:36:36] Step 4: Importing Flask and dependencies...
+[2025-10-18 10:36:37]   ✓ Flask version: 3.1.2
+[2025-10-18 10:36:38]   ✓ Pandas version: 2.3.3
+[2025-10-18 10:36:38]   ✓ NumPy version: 2.3.3
+[2025-10-18 10:36:43]   ✓ Scikit-learn version: 1.7.2
+[2025-10-18 10:36:43] 
+[2025-10-18 10:36:43] Step 5: Loading Flask application...
+[2025-10-18 10:36:43]   ✓ Flask app imported successfully
+[2025-10-18 10:36:43] 
+[2025-10-18 10:36:43] Step 6: Loading model and data...
+[2025-10-18 10:36:44]   ✓ Model and data loaded successfully
+[2025-10-18 10:36:44] 
+[2025-10-18 10:36:44] ======================================================================
+[2025-10-18 10:36:44] SERVER STARTED SUCCESSFULLY!
+[2025-10-18 10:36:44] ======================================================================
+[2025-10-18 10:36:44] 
+[2025-10-18 10:36:44] Access the application at:
+[2025-10-18 10:36:44]   → http://localhost:5000
+[2025-10-18 10:36:44]   → http://127.0.0.1:5000
+[2025-10-18 10:36:44] 
+[2025-10-18 10:36:44] Server logs are being written to: server_log.txt
+[2025-10-18 10:36:44] Press CTRL+C to stop the server
+[2025-10-18 10:36:44] ======================================================================
+[2025-10-18 10:36:44] 
+[2025-10-18 10:36:44] Starting Flask development server...
